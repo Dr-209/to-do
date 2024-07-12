@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: rgb(209,34,221);
+background: linear-gradient(90deg, rgba(209,34,221,1) 0%, rgba(63,58,219,1) 58%, rgba(218,0,255,1) 96%);
+
+}
+.container{
+    padding: 10px;
+}
+
+.todo-app{
+    max-width: 540px;
+    background: #ffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+ul li{
+    list-style: none;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+    font-size: 20px;
+
+
+}
+ul li::before{
+    content: '';
+    margin: 2px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+    top: 12px;
+    left: 8px;
+
+}
+ul li.checked{
+    color: green;
+    font-size: 20px;
+    /* background: rebeccapurple; */
+    text-decoration: line-through;
+
+}
+ul li.checked::before{
+    background-image: url(images/checked.png);
+
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 35px;
+    width: 40px;
+   font-size: 20px;
+    text-align: center;
+}
+ul li span:hover{
+    background: grey;
+    border-radius: 50%;
+}
