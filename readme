@@ -1,0 +1,16 @@
+## To-Do List Application 📝
+
+A simple and elegant To-Do List app built with HTML, CSS, and JavaScript, featuring a beautiful and user-friendly interface to manage tasks efficiently.
+
+🌟 Features:
+Add Tasks: Quickly add tasks with ease.
+Remove Tasks: Remove completed or unwanted tasks.
+Beautiful UI: A clean and modern design to enhance user experience.
+
+🚀 How to Run the Project
+Clone this repository to your local machine:
+bash
+Copy code
+git clone https://github.com/your-username/todo-list.git  
+Open the index.html file in your web browser.
+Start adding and managing your tasks!
